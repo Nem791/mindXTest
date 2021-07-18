@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h3>Color Picker</h3>
+    </div>
+    <div class="container">
+
+        <div class="color-code">
+            <h3>Choose color</h3>
+            <input id="hexCode" type="text">
+            <input type="color" id="pickColor">
+            <div class="buttons">
+                <button onclick="copyHex()"">Copy hex code</button>
+                <button onclick="exerciseB()">Update hex code</button>
+            </div>
+
+        </div>
+        <div class="color-code">
+            <h3>Choose color gradient</h3>
+            <input id="hexCode1" type="text">
+            <div>
+                <input type="color" id="pickColor1">
+                <input type="color" id="pickColor2">
+            </div>
+            
+            <div class="buttons">
+                <button onclick="copyHexgradient()"">Copy hex code</button>
+                <button onclick="exerciseBgradient()">Update hex code</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="test.js"></script>
+</body>
+
+</html>
